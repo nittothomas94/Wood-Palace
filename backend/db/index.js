@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
 
+require('dotenv').config();
+
 mongoose
-  .connect('mongodb://localhost:27017/Wood-Crafters')
+  .connect(Process.env.MONGO_URL)
   .then(() => {
     console.log('DB Connected');
   })
