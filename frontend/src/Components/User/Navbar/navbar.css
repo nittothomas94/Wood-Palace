@@ -1,0 +1,47 @@
+.navbar-user {
+  height: 10vh;
+  background-color: #42695f;
+  display: flex;
+  align-items: end;
+  padding: 5px 10%;
+  justify-content: space-between;
+}
+
+.navbar-user h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.links {
+  background-color: #42695f;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.links.active {
+  background-color: white;
+  color: black;
+}
+
+.links:hover {
+  background-color: white;
+  color: black;
+}
+
+.left-usernavbar {
+  display: flex;
+  gap: 8px;
+}
+
+.left-usernavbar .menu-items {
+  display: flex;
+  gap: 8px;
+}
+
+.left-usernavbar .cart-account {
+  display: flex;
+}

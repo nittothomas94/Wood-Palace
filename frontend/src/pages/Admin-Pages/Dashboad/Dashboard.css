@@ -1,0 +1,44 @@
+.dashboard {
+  padding: 4% 10%;
+}
+
+.graph {
+  min-height: 40vh;
+}
+
+.dashboard-sec02 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+
+.dashboard-sec02 .card {
+  width: 350px;
+  min-height: fit-content;
+  padding: 20px;
+}
+
+.dashboard-sec02 .card img {
+  margin-top: 30px;
+  width: 300px;
+  height: fit-content;
+  object-fit: contain;
+}
+
+.dashboard-sec02 .card h2 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.userCard {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 15px;
+  border-bottom: 0.6px solid rgb(184, 184, 184);
+}
+
+.userCard i {
+  font-size: 28px;
+}

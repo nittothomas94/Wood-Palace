@@ -1,0 +1,21 @@
+.users {
+  padding: 20px 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px`;
+}
+
+.users h1 {
+  /* width: 100%; */
+  height: 40px;
+  font-size: 40px;
+  /* border: 1px solid black; */
+  padding-left: 42%;
+  color: green;
+}
+
+.users-box {
+  width: 90%;
+  min-height: 60vh;
+  border: 1px solid rgb(184, 184, 184);
+}

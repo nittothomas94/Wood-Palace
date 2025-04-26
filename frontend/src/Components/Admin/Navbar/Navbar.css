@@ -1,0 +1,33 @@
+.navbar-admin {
+  height: 10vh;
+  background-color: gray;
+  padding: 5px 8%;
+  display: flex;
+}
+
+.links {
+  background-color: #42695f;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.links.active {
+  background-color: white;
+  color: black;
+}
+
+.links:hover {
+  background-color: white;
+  color: black;
+}
+
+.menu-items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

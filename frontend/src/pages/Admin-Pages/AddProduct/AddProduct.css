@@ -1,0 +1,38 @@
+.add-product h1 {
+  padding: 2%;
+  color: rgb(5, 106, 5);
+}
+
+.add_product {
+  padding: 5% 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  border: 1px solid black;
+  position: relative;
+  padding-bottom: 10%;
+}
+
+.add_product_input {
+  width: 70%;
+  height: 30px;
+  border: 2px solid black;
+  font-weight: 900;
+}
+
+.add_product_button {
+  position: absolute;
+  bottom: 10%;
+  left: 35%;
+}
+
+.add_product_btn {
+  padding: 2% 10vw;
+  background-color: rgb(23, 172, 23);
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.add_product_btn:active {
+  transform: scale(0.9);
+}

@@ -1,0 +1,290 @@
+/* section 01 */
+
+.section01-home {
+  min-height: 500px;
+  background-color: #42695f;
+  display: flex;
+  gap: 100px;
+  padding: 4% 10%;
+}
+
+.section01-home .left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section01-home .left h1 {
+  color: white;
+}
+
+.section01-home .left p {
+  color: rgb(142, 142, 142);
+}
+
+.shopnow-explore-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.shopnow-explore-but {
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.shopnow-explore-but:active {
+  transform: scale(0.9);
+}
+
+.shopnow {
+  background-color: #efc044;
+  border: none;
+}
+
+.explore {
+  border: 1px solid white;
+}
+
+/* section 02 */
+
+.section02-home {
+  display: flex;
+  gap: 40px;
+  padding: 5% 10%;
+}
+
+.crafted-with {
+  width: 280px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.crafted-with h1 {
+  font-weight: bolder;
+}
+
+.crafted-with p {
+  color: gray;
+}
+.section02-home .card {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 0px 2px 1px black;
+  padding: 20px;
+}
+
+.section02-home .card img {
+  width: 250px;
+  height: 200px;
+}
+
+/* secion 03 why Choose us*/
+
+.why-choose-us {
+  min-height: 300px;
+  width: 100%;
+  display: flex;
+  gap: 5%;
+  padding: 5% 10%;
+}
+
+.why-choose-us-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 55%;
+}
+
+.why-choose-us-left-top p {
+  margin-top: 10px;
+  color: rgb(143, 141, 141);
+}
+
+.why-choose-us-left-bottom {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.why-choose-us-left-bottom .card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.why-choose-us-left-bottom .card p {
+  color: rgb(144, 142, 142);
+}
+
+.why-choose-us-right {
+  width: 40%;
+}
+
+.why-choose-us-right img {
+  width: 100%;
+}
+
+/* Section 04 */
+
+.section04-home {
+  display: flex;
+  gap: 100px;
+  padding: 5% 10%;
+}
+
+.we-help-you-images {
+  position: relative;
+  width: 55%;
+  height: 630px;
+  /* background-color: red; */
+}
+
+#we-help-img01 {
+  position: absolute;
+  width: 400px;
+  height: 630px;
+  object-fit: cover;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+}
+
+#we-help-img02 {
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  width: 250px;
+  height: 300px;
+  z-index: 101;
+}
+
+#we-help-img03 {
+  position: absolute;
+  right: 10px;
+  bottom: 0px;
+  width: 250px;
+  height: 300px;
+  z-index: 101;
+}
+
+.we-help-you {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 3% 0px;
+}
+
+.we-help-you p,
+li {
+  color: rgb(122, 121, 121);
+}
+
+.we-help-you-explore {
+  padding: 10px 40px;
+  background-color: #3e848b;
+  border: none;
+  color: white;
+}
+
+.we-help-you-explore:active {
+  transform: scale(0.9);
+}
+
+/* Section 05 */
+
+.info-through-whatsapp-section-05 {
+  padding: 4% 10%;
+}
+
+.info-through-whatsapp-section-05 .head {
+  width: 100%;
+  height: 500px;
+  background-color: red;
+}
+
+.info-through-whatsapp-section-05 .head img {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+  margin-left: 300px;
+}
+
+/*  */
+/*  */
+/* Section 5 - WhatsApp Information */
+
+.whatsapp-info-section05 {
+  padding: 5%;
+}
+
+.whatsapp-info {
+  width: 100%;
+  min-height: 400px;
+  padding-top: 10%;
+  background: #f0f7f5;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+}
+
+/* Header */
+.whatsapp-info__header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20%;
+  gap: 15px;
+  padding-left: 180px;
+}
+
+.whatsapp-info__logo {
+  position: absolute;
+  left: 20px;
+  top: 10%;
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.whatsapp-info__title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #075e54;
+}
+
+/* Body */
+.whatsapp-info__body {
+  margin-top: 15px;
+  margin-left: 25%;
+}
+
+.whatsapp-info__text {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Button */
+.whatsapp-info__button {
+  display: inline-block;
+  background: #25d366;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.whatsapp-info__button:hover {
+  background: #1ebf5b;
+}

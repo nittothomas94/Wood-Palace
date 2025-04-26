@@ -1,0 +1,7 @@
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0px;
+  /* border: 1px solid black; */
+}
