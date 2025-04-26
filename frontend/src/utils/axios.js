@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instence = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://wood-palace.onrender.com/api',
   timeout: 10000,
 });
 
